@@ -32,12 +32,12 @@ SSLAR 是使用 IEPL/BGP 线路的机场订阅服务，常见叫法包括“SSLA
 
 公开说明显示，**SSLAR** 采用 **IEPL 国际专线 + 多线 BGP 优化中转** 架构，并根据网络环境选择 **Shadowsocks / VLESS** 协议。
 
-页面列出 **Eons、Akari、DigitalOcean** 等机房资源，并曾展示 YouTube 8K **400～550Mbps** 的测试信息。下方保留的相关截图没有标注可核验的测试日期与网络环境，因此只能作为历史记录，不能视为当前速度保证。
+页面列出 **Eons、Akari、DigitalOcean** 等机房资源，并展示历史测速与 YouTube 8K 播放截图。下方文字记录整理了各图可辨认的日期和测试环境；不同图片的条件并不齐全，不能视为当前速度保证。
 
 页面列出的支持范围包括 **Netflix、Disney+、HBO Max、Hulu、YouTube TV、TikTok、ChatGPT** 等流媒体及 AI 服务，并说明会分配相应 IP。
 
 - 企业级 IEPL 专线，不绕公网，延迟低、稳定性高；
-- 历史截图记录过晚高峰与 YouTube 测试，当前表现需以实际网络测试为准；
+- 历史截图记录过节点测速与 YouTube 播放，当前表现需以实际网络测试为准；
 - 页面列有 Netflix、Disney+、ChatGPT、TikTok 等平台支持；
 - 自适应 Shadowsocks / VLESS 协议，无需手动切换；
 - 提供 Windows、macOS、Android 专属客户端，登录即可使用，新手也能快速上手；
@@ -66,9 +66,22 @@ SSLAR 是使用 IEPL/BGP 线路的机场订阅服务，常见叫法包括“SSLA
 
 ## SSLAR VPN历史解锁与测速截图
 
+以下是页面已有历史截图的文字摘录，未重新测试。测速图记录 **2025-07-07 15:27:28（CST）**，工具为海豚测速 1.11.1，后端标注**华南深圳电信 2Gb**；使用 4 线程、Ping 10 次，整轮耗时 164 秒。具体测试设备和下载目标未记录。
+
+| 节点（原名） | RTT | HTTP 延迟 | 平均速度（原标） | 最高速度（原标） | UDP 类型 |
+| --- | --- | --- | --- | --- | --- |
+| 香港01 | 76ms | 185ms | 145.86MB | 175.62MB | Unknown |
+| 日本01 | 83ms | 238ms | 201.95MB | 286.65MB | Unknown |
+| 新加坡01 | 58ms | 892ms | 101.96MB | 115.82MB | Unknown |
+| 美国01 | 190ms | 320ms | 85.26MB | 110.35MB | Unknown |
+
+平均/最高速度按截图原标保留 **MB、KB 或 B**，没有换写成 Mbps；原图未明确写出的单位细节不作补推。摘录只覆盖上述代表行，不代表全体节点或当前网络表现。
+
+独立流媒体图记录 **2025-06-21 09:35:09（CST）**，MiaoKo 主端 4.3.3、喵速 5.0.0-beta6，后端为华南中山电信 1Gbps。例如香港01的 Netflix/Disney+ 显示解锁 HK，ChatGPT 显示解锁 TW，Hbo Go 为 **N/A**；日本01的 Netflix/Disney+/ChatGPT 显示解锁 JP。N/A 不能改写成成功。Google Fiber 图显示下载 943.9Mbps、上传 85.7Mbps、Ping 46ms，但未记录日期和本地测试环境；YouTube 图显示 2025-07-07 16:07:22 GMT+8、连接速度 607190Kbps 和 7680×4320@60，不能据此推断所有节点持续播放表现。
+
 ![SSLAR 历史流媒体解锁记录](https://i.eoht.net/airport/sslar_unlock.webp)
 
-![SSLAR 历史晚高峰测速记录](https://i.eoht.net/airport/sslar_speedtest.webp)
+![SSLAR 历史测速记录](https://i.eoht.net/airport/sslar_speedtest.webp)
 
 ![SSLAR 历史 Google 测试记录](https://i.eoht.net/airport/sslar_google.webp)
 
@@ -82,7 +95,7 @@ SSLAR 是使用 IEPL/BGP 线路的机场订阅服务，常见叫法包括“SSLA
 
 ### SSLAR VPN历史测速截图能代表当前速度吗？
 
-不能。当前页面没有可核验的测试日期、入口网络和本地运营商信息，历史截图只能说明记录当时的结果。购买后仍应使用自己的网络在常用时段测试延迟、丢包和持续速度。
+不能。部分截图记录了历史测试日期和后端网络，但缺少完整的本地设备、下载目标等条件，不能据此判断当前网络表现。购买后仍应使用自己的网络在常用时段测试延迟、丢包和持续速度。
 
 <a id="sslar-plan-comparison"></a>
 
