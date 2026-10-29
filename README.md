@@ -30,7 +30,7 @@ SSLAR 是使用 IEPL/BGP 线路的机场订阅服务，常见叫法包括“SSLA
 
 ## SSLAR VPN机场怎么样？IEPL、BGP、流媒体与 AI 支持
 
-公开说明显示，**SSLAR** 采用 **IEPL 国际专线 + 多线 BGP 优化中转** 架构，并根据网络环境选择 **Shadowsocks / VLESS** 协议。
+公开说明显示，**SSLAR** 提供 **2.5 Gbps 带宽**，采用 **IEPL 国际专线 + 多线 BGP 优化中转** 架构，并根据网络环境选择 **Shadowsocks / VLESS** 协议。
 
 页面列出 **Eons、Akari、DigitalOcean** 等机房资源，并展示历史测速与 YouTube 8K 播放截图。下方文字记录整理了各图可辨认的日期和测试环境；不同图片的条件并不齐全，不能视为当前速度保证。
 
