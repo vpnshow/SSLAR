@@ -4,17 +4,17 @@
 
 [完整详情与最新套餐](https://eoht.net/serve/airport/sslar) · [机场仓库汇总](https://github.com/vpnshow/airport-summary)
 
-SSLAR 是使用 IEPL/BGP 线路的机场订阅服务，常见叫法包括“SSLAR VPN”“SSLAR 梯子”和“SSLAR 机场”。选择时可先看套餐包含的代理节点与协议；本页还保留历史解锁和测速截图，但截图只能反映记录当时的情况。
-
 > [!NOTE]
 > **30 秒看懂 SSLAR**
+>
+> [访问官网](https://eoht.net/serve/airport/sslar) · [查看套餐与优惠](#sslar-vpn-plans) · [查看历史截图](#sslar-speed-test) · [查看机场推荐一览表](https://eoht.net/serve/airport/summary#vpn-airport-plan-comparison)
 >
 > - **最低门槛**：Basic 套餐 100GB 月付 ¥17，年付 ¥163。
 > - **核心特点**：页面列有 IEPL、BGP 以及 Shadowsocks / VLESS 协议选择。
 > - **优惠与证据**：页面列有 8 折码，并保留历史流媒体、晚高峰、Google 与 YouTube 测试截图。
 >
-> [查看套餐与优惠](#sslar-vpn-plans) · [查看历史截图](#sslar-speed-test) · [查看机场推荐一览表](https://eoht.net/serve/airport/summary#vpn-airport-plan-comparison)
->
+
+SSLAR 是使用 IEPL/BGP 线路的机场订阅服务，常见叫法包括“SSLAR VPN”“SSLAR 梯子”和“SSLAR 机场”。选择时可先看套餐包含的代理节点与协议；本页还保留历史解锁和测速截图，但截图只能反映记录当时的情况。
 
 <a id="sslar-official-website"></a>
 
